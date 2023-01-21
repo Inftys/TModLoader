@@ -10,7 +10,7 @@ namespace NewMod.Projectiles {
 
         private float Timer {
             get => Projectile.ai[0];
-	        set => Projectile.ai[0] = value;
+	    set => Projectile.ai[0] = value;
         }
         public override void SetDefaults() {
             Projectile.width = 40;
